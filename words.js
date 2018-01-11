@@ -1,0 +1,23 @@
+module.exports = [
+    "abstract",
+    "acrylic paint",
+    "airbrush",
+    "animation",
+    "architecture",
+    "paintbrush",
+    "painter",
+    "painting",
+    "paint roller",
+    "palette",
+    "palette knife",
+    "paper",
+    "pastel",
+    "pen",
+    "pencil",
+    "perspective",
+    "photo",
+    "photograph",
+    "pigment",
+    "porcelain",
+    "portfolio"
+];

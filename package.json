@@ -1,0 +1,23 @@
+{
+  "name": "constructorhangman",
+  "version": "1.0.0",
+  "description": "command line hangman game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddasahatter7/ConstructorHangMan.git"
+  },
+  "author": "Madison Barnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddasahatter7/ConstructorHangMan/issues"
+  },
+  "homepage": "https://github.com/maddasahatter7/ConstructorHangMan#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "inquirer": "^5.0.0"
+  }
+}
