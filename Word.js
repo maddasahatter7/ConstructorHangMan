@@ -3,14 +3,13 @@ var Letter = require("./Letter");
 // The Word constructor is responsible for creating an array of Letter objects and determining if the user guessed every Letter correctly
 function Word(word) {
     // word.split - splits word into array of letters
-      this.splitLetters = word.split("").map(function(char){
-
+     //     .map new `Letter` for each character and return an array
+    //    referred to with the instance variable, `letters`
+      this.letters = word.split("").map(function(char){
+          return new Letter(char);
       }
-    //     .map - instantiate a new `Letter` for each character and return an array
-    //            referred to with the instance variable, `letters`
 
-
-    // prototypes are optional, but will take up less memory than if we defined
+    // prototypes will take up less memory than if I defined
     //   each method in the constructor as an instance method
 
     // setting the method on the prototype means all instances of Word share this code
