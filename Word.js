@@ -3,7 +3,9 @@ var Letter = require("./Letter");
 // The Word constructor is responsible for creating an array of Letter objects and determining if the user guessed every Letter correctly
 function Word(word) {
     // word.split - splits word into array of letters
-    this.word = 
+      this.splitLetters = word.split("").map(function(char){
+
+      }
     //     .map - instantiate a new `Letter` for each character and return an array
     //            referred to with the instance variable, `letters`
 
