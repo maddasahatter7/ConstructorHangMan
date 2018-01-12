@@ -79,6 +79,7 @@ function Game() {
                         // The users guess must be a number or letter
                         // regex [a-z1-9] will allow only A-Z, a-z, 0-9
                         // The "i" flag indicates that case should be ignored while attempting a match in a string
+                        // function that makes user enter letter or number
                         letterNumber = /^[a-z1-9]/i.test(val);
                         return letterNumber;
                     }
