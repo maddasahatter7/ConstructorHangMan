@@ -3,7 +3,7 @@ var options = "_";
 
 function Letter(char) {
   // If a character is not a number or a letter, make it visibl right away
-  // // The value of ignoreCase is a Boolean and true if the "i" flag was used; 
+  // // The value of ignoreCase is a Boolean and true if the "i" flag is used;
   // otherwise, false. The "i" flag indicates that case should be ignored while attempting a match in a string.
   // regex [a-z1-9] will allow only A-Z, a-z, 0-9
   // attempting a match in a string.
@@ -26,14 +26,13 @@ Letter.prototype.solution = function () {
 };
 
 // Accepts a user’s guess
-Letter.prototype.guess = function (charGuess) {
-  if (charGuess.toLowerCase() === this.char.toLowerCase()) {
+Letter.prototype.guessTheLetter = function (char) {
+  if (char.toLowerCase() === this.char.toLowerCase()) {
+    // makes the magic happen showing visible characters "_"
     this.magic = true;
     return this.magic
   }
-
-  return false
-
+  return false;
 }
 
 
